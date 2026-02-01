@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flavors of Spices | AI Chatbot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+  <div class="chat-header">
+    <div class="logo">🌶️</div>
+    <div>
+      <h2>Flavors of Spices</h2>
+      <span>AI Restaurant Assistant</span>
+    </div>
+  </div>
+
+  <div class="chat-box" id="chatBox">
+    <div class="bot-message">
+      Vanakkam 🙏 Welcome to <b>Flavors of Spices</b>!  
+      Order food, book tables, enjoy offers & pay easily.
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Type or speak your message...">
+    <button onclick="startVoice()">🎤</button>
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <div class="qr-section">
+    <h4>Scan to Pay (UPI)</h4>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=flavorsofspices@upi">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
